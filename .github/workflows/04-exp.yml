@@ -23,7 +23,7 @@ jobs:
           - name: Download Dragon text file  
             uses: actions/download-artifact@v8
             with:
-                name: dragon
+                name: dragon.txt
           - name: Test File Exists
             run: grep -i "dragon" dragon.txt
 
